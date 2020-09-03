@@ -23,7 +23,7 @@ export default class MyApp extends App {
     }
   }
   handleChangeTheme() {
-    const { theme } = this.state
+    const { theme }: any = this.state
     if( theme === 'light') {
       this.setState({theme: 'dark'})
       localStorage.setItem("theme", 'dark')
@@ -33,7 +33,7 @@ export default class MyApp extends App {
     }
   }
   render() {
-    const { theme } = this.state
+    const { theme }: any = this.state
     const { Component, pageProps } = this.props;
     return (
       <ThemeContext.Provider value={theme}>
