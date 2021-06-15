@@ -11,11 +11,6 @@ const Nav = ({onChange}) => (
         </ActiveLink>
       </Li>
       <Li>
-        <ActiveLink href='/products' activeClassName="active">
-          <a>products</a>
-        </ActiveLink>
-      </Li>
-      <Li>
         <ActiveLink href='/posts' activeClassName="active">
           <a>posts</a>
         </ActiveLink>

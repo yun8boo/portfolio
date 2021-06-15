@@ -5,6 +5,9 @@ import styled from 'styled-components'
 import H2 from '../components/styled-html-tag/H2'
 
 const hatebuPosts = [
+  {id: '182725', url: 'https://tech.stmn.co.jp/entry/2021/03/31/182725', title: 'Reactでコンポーネントを実装する際に意識している4つの話'},
+  {id: '180925', url: 'https://tech.stmn.co.jp/entry/2020/11/30/180925', title: '自動で画像最適化してくれるのうれしいよね(Next.js)'},
+  {id: '102306', url: 'https://tech.stmn.co.jp/entry/2020/09/30/102306', title: 'Lighthouseを使ってパフォーマンス監視する'},
   {id: '151329', url: 'https://tech.stmn.co.jp/entry/2020/06/24/151329', title: 'Utility Typesで楽に、Type Transformしよう'},
   {id: '152551', url: 'https://tech.stmn.co.jp/entry/2020/05/28/152551', title: 'Recoil触ってみた'},
   {id: '110247', url: 'https://tech.stmn.co.jp/entry/2020/04/10/110247', title: 'useEffectを理解する'},

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styled from 'styled-components'
 
 const Home = () => {
@@ -9,13 +10,12 @@ const Home = () => {
     </Head>
     <Container>
       <ImageWrapper>
-        <Image src="/static/icon-m.png" alt=""/>
+        <Image src="/icon-m.png" width={250} height={250} alt=""/>
       </ImageWrapper>
       <Wrapper>
         <H2>me</H2>
       </Wrapper>
         <p>名古屋のベンチャー企業でフロントエンドエンジニアしてます。</p>
-        <p>新卒2年目です。</p>
         <p>美味しいラーメン食べたい。</p>
       <Wrapper>
         <H2>skill</H2>
@@ -25,8 +25,8 @@ const Home = () => {
           <li>TypeScript</li>
           <li>React</li>
           <li>NodeJS</li>
-          <li>Express</li>
           <li>ReactNative</li>
+          <li>Flutter</li>
         </ul>
       </Wrapper>
       <Wrapper>
@@ -54,13 +54,14 @@ const ImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 `
 
 const Wrapper = styled.div`
   margin-top: 20px;
 `
 
-const Image = styled.img`
+const StyledImage = styled(Image)`
   border-radius: 50%;
   width: 50%;
 `
